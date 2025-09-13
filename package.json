@@ -1,0 +1,29 @@
+{
+  "name": "api-node-express-mongo",
+  "version": "1.0.0",
+  "description": "OOuaKlvWUlil6JA3\r leandrofrancagti_db_user",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leandroffdev/api-node-express-mongo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/leandroffdev/api-node-express-mongo/issues"
+  },
+  "homepage": "https://github.com/leandroffdev/api-node-express-mongo#readme",
+  "dependencies": {
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
