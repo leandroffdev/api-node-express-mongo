@@ -44,6 +44,20 @@ export const updateVenda = async (req, res) => {
   }
 };
 
+// UPDATE PATCH
+export const updateVendaPatch = async (req, res) => {
+  try {
+    const vendaAtualizada = await VendaMensal.findByIdAndUpdate(
+      req.params.id,
+      req.body,
+      { new: true }
+    );
+    res.status(200).json(vendaAtualizada);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+};
+
 // DELETE
 export const deleteVenda = async (req, res) => {
   try {

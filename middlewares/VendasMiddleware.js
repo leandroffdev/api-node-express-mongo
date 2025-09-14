@@ -1,6 +1,5 @@
 const VendasMiddleware = (req, res, next) => {
-  console.log("✅ Middleware executado!");
-  next();
+    next();
 };
 
 export default VendasMiddleware;
